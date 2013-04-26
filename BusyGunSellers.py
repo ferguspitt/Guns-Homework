@@ -5,6 +5,12 @@ This is a program to search through armslist's for sale forums and
 	Find private sellers in a given location selling a given type of gun then
 	Find out how many other items they have for sale.
 This can then be used to go and find out more about the private sellers who are busy, and whether they're legit.
+
+Running queries on handguns, shotguns and nfa-firearms, in illinois (a state with strict firearm laws) on Friday April 26th, at around 1pm, 
+the program returns 31 busySellers networkURL URLs. Note, not all of these items for sale are guns, some may be ammunition or hunting equipment, but it certainly narrows down the search.
+
+
+
 By Fergus Pitt 
 
 
@@ -36,9 +42,9 @@ def makeURLs(city,category,DirectoriesNumber):
 makeURLs('illinois','handguns',5)
 makeURLs('illinois','shotguns',5)
 makeURLs('illinois','nfa-firearms',5)
-makeURLs('louisiana','handguns',5)
-makeURLs('louisiana','shotguns',5)
-makeURLs('louisiana','nfa-firearms',5)
+#makeURLs('louisiana','handguns',5)
+#makeURLs('louisiana','shotguns',5)
+#makeURLs('louisiana','nfa-firearms',5)
 
 '''
 Get Unlicensed Dealers (network analysis)
